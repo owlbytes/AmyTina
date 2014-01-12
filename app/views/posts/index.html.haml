@@ -6,8 +6,18 @@ Hey I'm a random post:
 
   = @posts.text
   %br
-  = @posts.author
-  / = link_to 'Permalink', post 
+  = @posts.ta
+  %br
+  = link_to "Permalink", @post
+
+  / = link_to 'Permalink', (@post) 
+  / = link_to post.text, (@post)
+
+ 
+
+  / - @allposts.each do |post|
+  /   / = link_to 'Permalink', post
+  /   
 
 %br
 %hr 
