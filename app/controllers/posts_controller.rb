@@ -3,6 +3,7 @@ class PostsController < ApplicationController
   # GET /posts.json
   def index
     @posts = Post.first(:order => "Random()")
+    @allposts = Post.all
 
     respond_to do |format|
       format.html # index.html.erb
@@ -15,6 +16,7 @@ class PostsController < ApplicationController
 
 
   def show
+    # @post = Post.find_by_permalink(params[:id])
     @post = Post.find(params[:id])
 
     respond_to do |format|
