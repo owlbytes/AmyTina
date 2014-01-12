@@ -1,19 +1,27 @@
 %h1 Life Advice From Tina Fey & Amy Poehler
 
-%table
-  %tr
-    %th Text
-    %th
-    %th
-    %th
 
-  - @posts.each do |post|
-    %tr
-      %td= post.text
-      %td= link_to 'Show', post
-      %td= link_to 'Edit', edit_post_path(post)
-      %td= link_to 'Destroy', post, :method => :delete, :data => { :confirm => 'Are you sure?' }
-
+Hey I'm a random post:
 %br
 
-= link_to 'New Post', new_post_path
+  = @posts.text
+  %br
+  = @posts.author
+  / = link_to 'Permalink', post 
+
+%br
+%hr 
+%hr
+%br
+
+/ Hey I'm all the posts:
+
+/ - @allposts.each do |post|
+/   = post.text
+/   = post.author
+/   = link_to 'Permalink', post
+
+
+ 
+  
+      

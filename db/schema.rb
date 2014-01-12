@@ -15,6 +15,7 @@ ActiveRecord::Schema.define(:version => 20140111172929) do
 
   create_table "posts", :force => true do |t|
     t.text     "text"
+    t.text     "author"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
