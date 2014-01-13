@@ -1,37 +1,19 @@
-%h1 Life Advice From Tina Fey & Amy Poehler
-
-
-Hey I'm a random post:
-%br
-
-  = @posts.text
-  %br
-  = @posts.ta
-  %br
-  = link_to "Permalink", @post
-
-  / = link_to 'Permalink', (@post) 
-  / = link_to post.text, (@post)
-
- 
-
-  / - @allposts.each do |post|
-  /   / = link_to 'Permalink', post
-  /   
 
 %br
-%hr 
-%hr
-%br
 
-/ Hey I'm all the posts:
+.body
+  .button
+  .leftdiv
+    = image_tag("AmyTina.jpg")
+  .rightdiv
+    = @posts.text
+    %br
+    = @posts.ta
+    %br
+    = link_to "Permalink", @post
+  
 
-/ - @allposts.each do |post|
-/   = post.text
-/   = post.author
-/   = link_to 'Permalink', post
-
-
+  
  
   
       

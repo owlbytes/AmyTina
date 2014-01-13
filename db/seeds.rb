@@ -64,53 +64,53 @@ post23 = Post.create!(ta: "Tina", text: "We should leave people alone about thei
 
 #Quotes From Amy 
 
-post2 = Post.create!(ta: "Amy", text: "The great thing about taking big chances when you're younger is you have less to lose, and you don't know as much. So you take big swings.")
+post24 = Post.create!(ta: "Amy", text: "The great thing about taking big chances when you're younger is you have less to lose, and you don't know as much. So you take big swings.")
 
-post2 = Post.create!(ta: "Amy", text: "I get worried for young girls sometimes. I want them to feel that they can be sassy and full and weird and geeky and smart and independent and not so withered and shriveled. ")
+post25 = Post.create!(ta: "Amy", text: "I get worried for young girls sometimes. I want them to feel that they can be sassy and full and weird and geeky and smart and independent and not so withered and shriveled. ")
 
-post2 = Post.create!(ta: "Amy", text: "There's power in looking silly and not caring that you do.")
+post26 = Post.create!(ta: "Amy", text: "There's power in looking silly and not caring that you do.")
 
-post2 = Post.create!(ta: "Amy", text: "Rooting for other people's failure does get in the way of your success.")
+post27 = Post.create!(ta: "Amy", text: "Rooting for other people's failure does get in the way of your success.")
 
-post2 = Post.create!(ta: "Amy", text: "Apologies can be simple. They don't have to be grandiose and it's never too late to apologize.")
+post28 = Post.create!(ta: "Amy", text: "Apologies can be simple. They don't have to be grandiose and it's never too late to apologize.")
 
-post2 = Post.create!(ta: "Amy", text: "Girls, if a boy says something that isn't funny you dont have to laugh. ")
+post29 = Post.create!(ta: "Amy", text: "Girls, if a boy says something that isn't funny you dont have to laugh. ")
 
-post2 = Post.create!(ta: "Amy", text: "Take your risks now, as you grow older you become more fearful and less flexible. And I mean that litterally. I hurt my knee this week ona  treadmill and it wasn't even on. ")
+post30 = Post.create!(ta: "Amy", text: "Take your risks now, as you grow older you become more fearful and less flexible. And I mean that litterally. I hurt my knee this week ona  treadmill and it wasn't even on. ")
 
-post2 = Post.create!(ta: "Amy", text: "Anybody who doesn't make you feel good kick them to the curb. And the earlier you start in your life, the better.")
+post31 = Post.create!(ta: "Amy", text: "Anybody who doesn't make you feel good kick them to the curb. And the earlier you start in your life, the better.")
 
-post2 = Post.create!(ta: "Amy", text: "Continue to share your heart with people even if it's been broken.")
+post32 = Post.create!(ta: "Amy", text: "Continue to share your heart with people even if it's been broken.")
 
-post2 = Post.create!(ta: "Amy", text: "If you can speak about what you care about to a person you disagree with without denigrating or insulting htem, then you may actually be heard and you might even change their mind.")
+post33 = Post.create!(ta: "Amy", text: "If you can speak about what you care about to a person you disagree with without denigrating or insulting htem, then you may actually be heard and you might even change their mind.")
 
-post2 = Post.create!(ta: "Amy", text: "When you feel scared, hold someone's hand and look into their eyes. And when you feel brave, do the same thing.")
+post34 = Post.create!(ta: "Amy", text: "When you feel scared, hold someone's hand and look into their eyes. And when you feel brave, do the same thing.")
 
-post2 = Post.create!(ta: "Amy", text: "Try to keep your mind open to possibilities and your mouth closed on matters that you don’t know about. Limit your ‘always’ and your ‘nevers.’")
+post35 = Post.create!(ta: "Amy", text: "Try to keep your mind open to possibilities and your mouth closed on matters that you don’t know about. Limit your ‘always’ and your ‘nevers.’")
 
-post2 = Post.create!(ta: "Amy", text: "Try putting your iPhones down every once in a while and look at people's faces.")
+post36 = Post.create!(ta: "Amy", text: "Try putting your iPhones down every once in a while and look at people's faces.")
 
-post2 = Post.create!(ta: "Amy", text: "Vulnerable people are powerful people. Opening your heart and sharing it means you're going to get so much love in your life.")
+post37 = Post.create!(ta: "Amy", text: "Vulnerable people are powerful people. Opening your heart and sharing it means you're going to get so much love in your life.")
 
-post2 = Post.create!(ta: "Amy", text: "If you can sleep, breathe, work hard, wish for the best and do everything you can to prepare, I bet you'll do well -- as well as you can. And that's all anybody can ask for.")
+post38 = Post.create!(ta: "Amy", text: "If you can sleep, breathe, work hard, wish for the best and do everything you can to prepare, I bet you'll do well -- as well as you can. And that's all anybody can ask for.")
 
-post2 = Post.create!(ta: "Amy", text: "Guys like girls who don't wear a lot of makeup. You have your whole life to have to wear a lot of makeup.")
+post39 = Post.create!(ta: "Amy", text: "Guys like girls who don't wear a lot of makeup. You have your whole life to have to wear a lot of makeup.")
 
-post2 = Post.create!(ta: "Amy", text: "You have to remember that goodbyes are temporary because no one ever really leaves and nothing lasts forever. People are always with us, because they are in our hearts and in our memory. The only thing we can depend on is change... Life is just a series of moments -- a string of pearls that make up the necklace of your life and so every once in a while to complete the circle, you need to end a chapter.")
+post40 = Post.create!(ta: "Amy", text: "You have to remember that goodbyes are temporary because no one ever really leaves and nothing lasts forever. People are always with us, because they are in our hearts and in our memory. The only thing we can depend on is change... Life is just a series of moments -- a string of pearls that make up the necklace of your life and so every once in a while to complete the circle, you need to end a chapter.")
 
-post2 = Post.create!(ta: "Amy", text: "We don't want to be afraid to make a choice because we're afraid to make a mistake because most decisions aren't final. Feelings change all the time. You can always change your mind and taking risks and making choices is what makes life so exciting because we never know what's going to happen. Every day something new comes our way.")
+post41 = Post.create!(ta: "Amy", text: "We don't want to be afraid to make a choice because we're afraid to make a mistake because most decisions aren't final. Feelings change all the time. You can always change your mind and taking risks and making choices is what makes life so exciting because we never know what's going to happen. Every day something new comes our way.")
 
-post2 = Post.create!(ta: "Amy", text: "Great people do things before they’re ready. They do things before they know they can do it. Doing what you're afraid of, getting out of your comfort zone, taking risks like that -- that is what life is. You might be really good. You might find out something about yourself that's really special and if you're not good, who cares? You tried something. Now you know something about yourself.")
+post42 = Post.create!(ta: "Amy", text: "Great people do things before they’re ready. They do things before they know they can do it. Doing what you're afraid of, getting out of your comfort zone, taking risks like that -- that is what life is. You might be really good. You might find out something about yourself that's really special and if you're not good, who cares? You tried something. Now you know something about yourself.")
 
-post2 = Post.create!(ta: "Amy", text: "Sometimes jealousy masks itself as anger or resentment, and it’s good to just straight-up admit sometimes, ‘Man, I’m jealous of that.’")
+post43 = Post.create!(ta: "Amy", text: "Sometimes jealousy masks itself as anger or resentment, and it’s good to just straight-up admit sometimes, ‘Man, I’m jealous of that.’")
 
-post2 = Post.create!(ta: "Amy", text: "It’s never overreacting to ask for what you want and need.")
+post44 = Post.create!(ta: "Amy", text: "It’s never overreacting to ask for what you want and need.")
 
-post2 = Post.create!(ta: "Amy", text: "What’s cool about volunteering is, once you become passionate about things, passion is what teaches us who we are and what we want our world to look like and the kind of people we want to have in our lives. So start figuring out what excites you, or what angers you, and fight for or against those things.")
+post45 = Post.create!(ta: "Amy", text: "What’s cool about volunteering is, once you become passionate about things, passion is what teaches us who we are and what we want our world to look like and the kind of people we want to have in our lives. So start figuring out what excites you, or what angers you, and fight for or against those things.")
 
-post2 = Post.create!(ta: "Amy", text: "Fathers do such a good job when they make their daughters feel like they can do anything. That’s what fathers are supposed to do: make their daughters feel loved and safe and strong.")
+post46 = Post.create!(ta: "Amy", text: "Fathers do such a good job when they make their daughters feel like they can do anything. That’s what fathers are supposed to do: make their daughters feel loved and safe and strong.")
 
-post2 = Post.create!(ta: "Amy", text: "Try to choose your words a little bit more carefully. I know it’s hard, sometimes we lose control. But if you can try to think about a way to be kind with your words, it may make a difference.")
+post47 = Post.create!(ta: "Amy", text: "Try to choose your words a little bit more carefully. I know it’s hard, sometimes we lose control. But if you can try to think about a way to be kind with your words, it may make a difference.")
 
 # post2 = Post.create!(ta: "Amy", text: "Amy Amy Amy")
 
