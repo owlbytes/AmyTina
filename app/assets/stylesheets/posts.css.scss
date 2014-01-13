@@ -10,6 +10,7 @@ a {
   background-color: #eeddcc;
   overflow: hidden;
   margin: 0px;
+  padding: 0px;
 }
 
 // the picture column
@@ -20,6 +21,7 @@ a {
   text-align: center;
   vertical-align: center;
   margin: 0px;
+  padding: 0px;
   img {
     width: 15em;
     height: auto;
@@ -50,7 +52,7 @@ a {
   .a {
     color: #ffffff;  
   }
-  background-color:#aa5555;
+  background-color:#eeddcc;
   color: #ffffff;
   -webkit-border-top-left-radius:25px;
   -moz-border-radius-topleft:25px;
@@ -76,6 +78,7 @@ a {
   width:127px;
   text-decoration:none;
   text-align:center;
+  border:5px solid #aa5555;
 }
 
 .button.a{
