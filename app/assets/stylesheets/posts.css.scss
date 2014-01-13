@@ -1,3 +1,87 @@
 // Place all the styles related to the posts controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+a {
+  text-decoration: none;
+  color: #aa5555;
+}
+.body {
+  background-color: #eeddcc;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+}
+
+// the picture column
+.leftdiv {
+  width: 50%;
+  height: auto;
+  float: left;
+  text-align: center;
+  vertical-align: center;
+  margin: 0px;
+  padding: 0px;
+  img {
+    width: 15em;
+    height: auto;
+    border:5px solid #aa5555;
+  }
+}
+
+// the text column
+.rightdiv {
+  margin: 0px;
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  width: 29em;
+  height: 29em;
+  float: left;
+  // border:5px solid #cc3333;
+  overflow: hidden; 
+  text-align: center;
+  vertical-align: center;
+  padding: 1em;
+  // padding-top: 7em;
+  font-family: 'Chango'
+}
+
+.button {
+  .a {
+    color: #ffffff;  
+  }
+  background-color:#eeddcc;
+  color: #ffffff;
+  -webkit-border-top-left-radius:25px;
+  -moz-border-radius-topleft:25px;
+  border-top-left-radius:25px;
+  -webkit-border-top-right-radius:25px;
+  -moz-border-radius-topright:25px;
+  border-top-right-radius:25px;
+  -webkit-border-bottom-right-radius:25px;
+  -moz-border-radius-bottomright:25px;
+  border-bottom-right-radius:25px;
+  -webkit-border-bottom-left-radius:25px;
+  -moz-border-radius-bottomleft:25px;
+  border-bottom-left-radius:25px;
+  text-indent:0;
+  display:inline-block;
+  color:#ffffff;
+  font-family:Trebuchet MS;
+  font-size:24px;
+  font-weight:bold;
+  font-style:normal;
+  height:63px;
+  line-height:63px;
+  width:127px;
+  text-decoration:none;
+  text-align:center;
+  border:5px solid #aa5555;
+}
+
+.button.a{
+  color: #ffffff;
+}
+ 
