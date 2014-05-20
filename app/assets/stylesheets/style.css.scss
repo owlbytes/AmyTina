@@ -1,0 +1,62 @@
+// Place all the styles related to the posts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+a {
+  text-decoration: none;
+  color: #aa5555;
+}
+.body {
+  background-color: #ffffff;
+}
+
+// the picture column
+
+ //application general styling
+
+//index styling
+#image {
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+#text {
+  padding: 1%;
+  h5, h6 {
+    font-family: 'Roboto', sans-serif; font-weight: 500; 
+  }
+  p {
+    font-family: 'Roboto', sans-serif; font-weight: 400; 
+  }
+}
+
+#MoreButton{
+  text-align: center;
+  a {
+    font-family: 'Roboto', sans-serif; font-weight: 700; 
+  }
+}
+
+ 
+//header footer styling
+#footie, 
+#header {
+  text-align: center;
+  vertical-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  h1, h2, h3 {
+    font-family: 'Roboto', sans-serif; font-weight: 700; 
+  }
+  h4, h5, h6 {
+    font-family: 'Roboto', sans-serif; font-weight: 500; 
+  }
+} 
+
+
+ 
+ 
+
+ 

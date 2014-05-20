@@ -1,23 +1,16 @@
-
-%br
-
-.body
-
-  .leftdiv
-    = image_tag("AmyTina.jpg")
-  .rightdiv
-    .button
-      = link_to "More", root_path
+.container.sixteen.columns
+  #image.eight.columns.alpha
+    = image_tag("sunglasses.jpg")
+  #text.eight.columns.omega
+    #MoreButton
+      %h3= link_to "More", root_path
+    %br
     %br
     %br
     = @posts.text
     %br
-    = @posts.ta
     %br
-    / = link_to "Permalink", @post
-  
+    %br
+    %h5= @posts.ta
 
-  
- 
-  
-      
+

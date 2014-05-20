@@ -5,13 +5,20 @@
     = stylesheet_link_tag    "application", :media => "all"
     = javascript_include_tag "application"
     = csrf_meta_tags
-    %link{href: "http://fonts.googleapis.com/css?family=Chango", rel: "stylesheet", type: "text/css"}/
+    %link{href: "<link href='http://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'>", rel: "stylesheet", type: "text/css"}/
 
-  %body
-    .header
-      = render "shared/header"
+    #header.container.sixteen.columns
+      %br
+      %h1 Advice From Tina & Amy
+      %h4 Life Advice From Cultural Icons Tina Fey & Amy Poehler
+      %br
+      %br
+
     = yield
-    .footie
-      = render "shared/footer"
 
-
+    #footie.container.sixteen.columns
+      %br
+      %hr
+      Created by 
+      = link_to "Neha Shah", "https://twitter.com/neha_shah"
+    
