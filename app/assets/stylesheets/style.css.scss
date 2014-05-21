@@ -6,36 +6,57 @@ a {
   text-decoration: none;
   color: #aa5555;
 }
-.body {
-  background-color: #ffffff;
+body {
+  background-image:url('hair.jpg');
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-position:center; 
+  background-color: #EDEDED;
 }
 
-// the picture column
-
- //application general styling
-
-//index styling
-#image {
-  img {
-    width: 100%;
-    height: auto;
-  }
+#jam{
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  background-color: red;
 }
 
 #text {
   padding: 1%;
+  margin-right: auto;
+  margin-left: auto;
+  color: #ffffff;
+  background-color: rgba(202, 48, 130, 0.8);
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  padding:1%;
   h5, h6 {
     font-family: 'Roboto', sans-serif; font-weight: 500; 
+    text-align: center;
   }
   p {
     font-family: 'Roboto', sans-serif; font-weight: 400; 
   }
 }
 
-#MoreButton{
+
+#MoreButton,
+#footie{
   text-align: center;
   a {
     font-family: 'Roboto', sans-serif; font-weight: 700; 
+    color: #ffffff;
+    background-color: rgba(75, 31, 67, 0.74);
+    padding: 2%;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+  }
+
+  a:hover {
+    background-color: rgba(75, 31, 67, 1);
+    color: #ffffff;
   }
 }
 
@@ -47,13 +68,17 @@ a {
   vertical-align: center;
   margin-left: auto;
   margin-right: auto;
+  color: #ffffff;
+  
   h1, h2, h3 {
     font-family: 'Roboto', sans-serif; font-weight: 700; 
-  }
-  h4, h5, h6 {
-    font-family: 'Roboto', sans-serif; font-weight: 500; 
+    color: #CA3082;
   }
 } 
+
+#footie {
+  padding: 1%;
+}
 
 
  

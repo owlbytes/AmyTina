@@ -1,16 +1,29 @@
 .container.sixteen.columns
-  #image.eight.columns.alpha
-    = image_tag("sunglasses.jpg")
-  #text.eight.columns.omega
-    #MoreButton
-      %h3= link_to "More", root_path
-    %br
-    %br
-    %br
-    = @posts.text
-    %br
-    %br
-    %br
-    %h5= @posts.ta
+  #text#MoreButton
+    %h3= link_to "More", root_path
+  %br
+  %br
+  %br
+  #jam
+    .four.columns.alpha
+      %br
+      %br
+    #text.eight.columns.omega
+      %br
+      %h4= @posts.text
+      %br
+      %h3= @posts.ta
+    .four.columns.omega
+      %br
+
+
+
+  / #text.ten.columns.offset-by-two
+  /   = @posts.text
+  / %br
+  / %br
+  / %br
+  / #text
+  /   %h5= @posts.ta
 
 
