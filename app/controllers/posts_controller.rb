@@ -1,6 +1,4 @@
 class PostsController < ApplicationController
-  # GET /posts
-  # GET /posts.json
   def index
     @posts = Post.first(:order => "Random()")
     @allposts = Post.all
@@ -10,9 +8,6 @@ class PostsController < ApplicationController
       format.json { render json: @posts }
     end
   end
-
-  # GET /posts/1
-  # GET /posts/1.json
 
 
   def show
@@ -84,4 +79,5 @@ class PostsController < ApplicationController
       format.json { head :no_content }
     end
   end
+
 end
