@@ -1,0 +1,27 @@
+%h1 All the Posts
+
+
+%hr
+= link_to 'New Post', new_post_path
+
+%hr
+
+%table
+  %tr
+    %th
+    %th
+    %th
+
+  - @posts.each do |post|
+    %tr
+      %td= link_to 'Show', post
+      %td= link_to 'Edit', edit_post_path(post)
+      %td= link_to 'Destroy', post, :method => :delete, :data => { :confirm => 'Are you sure?' }
+
+%br
+
+
+/ %hr
+/ = @posts do |post| do
+/   = link_to post.ta
+/   = link_to post.text

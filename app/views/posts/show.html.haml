@@ -2,8 +2,5 @@
 
 %p
   = @post.ta
-  = @post.author 
-
-/ = link_to 'Edit', edit_post_path(@post)
-/ \|
-= link_to 'Home', posts_path
+  %br
+  = @post.text

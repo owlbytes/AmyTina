@@ -1,4 +1,7 @@
 AmyTina::Application.routes.draw do
+  resources :admins
+
+
   resources :posts
 
 
