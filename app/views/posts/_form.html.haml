@@ -7,7 +7,12 @@
           %li= msg
 
   .field
+    = f.label "Author"
+    = f.text_field :ta
+    
+  .field
     = f.label :text
     = f.text_area :text
+
   .actions
     = f.submit 'Save'
